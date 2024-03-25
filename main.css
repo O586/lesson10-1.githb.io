@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.window {
+    width: 1440px;
+}
+
+.header-block {
+    background: no-repeat center url(./image/Background.png) rgba(198, 108, 73, 0.30);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 768px;
+    background-size: cover;
+    color: white;
+}
+
+.menu,
+.about,
+.skills,
+.portfolio,
+.footer {
+    padding: 93px 165px;
+}
+
+.header-content {
+    padding: 85px 165px;
+}
+
+.t8 {
+    padding-bottom: 86px;
+}
+
+.t12 {
+    font-family: Libre Franklin;
+    font-size: 64px;
+    font-weight: 400;
+
+
+}
+
+.t13 {
+    font-family: Libre Franklin;
+    font-size: 24px;
+
+}
+
+.navbar-brand {
+    font-family: Libre Franklin;
+    font-size: 24px;
+    font-weight: 700;
+
+
+}
+
+.t1 {
+    font-family: Libre Franklin;
+    font-size: 24px;
+
+
+}
+
+.t2 {
+    font-family: Libre Franklin;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+
+.t10 {
+    font-weight: 600;
+    font-family: Libre Franklin;
+    font-size: 18px;
+}
+
+.t11 {
+    padding-right: 105px;
+    text-align: justify;
+}
+
+.right-menu {
+    justify-content: flex-end;
+}
+
+.mar-l {
+    margin-left: 60px;
+}
+
+.t9 {
+    padding-top: 56px;
+}
+
+.about {
+    height: 544px;
+}
+
+.t3 {
+    font-family: Libre Franklin;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+
+.t4,
+.t27 {
+    font-family: Libre Franklin;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+
+
+span {
+    content: "\276E";
+    font-size: x-large;
+}
+
+span {
+    content: "\276F";
+}
+
+
+
+.taj {
+    text-align: justify;
+}
+
+section.skills {
+    background-color: #FFFAF2;
+    height: 693px;
+
+}
+
+.img {
+    width: 350px;
+    height: 340px;
+
+
+}
+
+.progress {
+    background-color: #F5D6AB;
+}
+
+.progress-bar {
+    background: #C66C49;
+}
+
+.portfolio {
+    height: 822px;
+}
+
+.text-portfolio {
+    margin-left: 0;
+    margin-right: 125px;
+}
+
+.padding {
+    padding-left: 0;
+}
+
+.photoa {
+    width: 350px;
+    height: 144px;
+    margin-bottom: 26px;
+    margin-right: 30px;
+}
+
+.photob {
+    width: 350px;
+    height: 233px;
+    margin-right: 30px;
+}
+
+.photoc {
+    width: 255px;
+    height: 233px;
+    margin-bottom: 26px;
+}
+
+.photod {
+    width: 255px;
+    height: 144px;
+}
+
+.footer {
+    background-color: #FFFAF2;
+    height: 528px;
+}
+
+.bottom-img {
+    font-size: x-large;
+    margin-top: 250px;
+    margin-left: 160px;
+}
+
+
+@media screen and (max-width: 476px) {
+    .window {
+        width: 375px;
+        border: none;
+    }
+
+    .header-block {
+        background: no-repeat url(./image/bg\ \(6\).png);
+        width: 373px;
+        height: 275px;
+    }
+
+    .menu {
+        padding: 0px;
+    }
+
+    .navbar-toggler-icon,
+    .navbar-toggler {
+        position: absolute;
+        left: 0px;
+    }
+
+    .header-content,
+    .about,
+    .skills,
+    .portfolio,
+    .footer {
+        padding: 0px;
+    }
+
+    .t11 {
+        font-size: 20px;
+        padding: 50px 58px 0px;
+    }
+
+    .t13 {
+        font-size: 13px;
+        padding: 13px 73px 0px;
+    }
+
+    .t14 {
+        font-size: 13px;
+        padding: 21px 106px 0px;
+    }
+
+    .navbar-brand {
+        padding-left: 111px;
+    }
+
+    .about {
+        height: 335px;
+
+    }
+
+    .t15,
+    .t19,
+    .t24,
+    .t25,.t28 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .t16 {
+        font-size: 12px;
+        padding: 19px 34px 0px 29px;
+        text-align: justify;
+    }
+
+    .t17 {
+        padding: 0px 34px 0px 29px;
+    }
+
+    .skills {
+        height: 617px;
+
+
+    }
+
+    .t18 {
+        padding-top: 18px;
+    }
+
+    .t19 {
+        /* display: flex;
+        justify-content: center; */
+        padding: 25px 0px 25px 0px;
+    }
+
+    .img {
+        width: 224px;
+        height: 218px;
+        margin-left: 71px;
+
+    }
+
+    .t20 {
+        font-size: 12px;
+    }
+
+    .t21 {
+        padding: 26px 11px 0px;
+    }
+
+    .t22 {
+        padding: 0px 1px 10px;
+    }
+
+    .t23 {
+        padding: 26px 0px 0px;
+    }
+
+    .portfolio {
+        height: 404px;
+    }
+
+    .t24,.t28 {
+        font-weight: 600;
+        /* display: flex;
+    justify-content: center; */
+    }
+   .footer {
+    height: 360px;
+   }
+    .t25 {
+        font-size: 14px;
+        font-weight: 500;
+        /* display: flex;
+        justify-content: center; */
+    }
+
+    .t26 {
+        font-size: 12px;
+        padding: 15px 34px 0px;
+
+    }
+
+    .t27 {
+        font-size: 12px;
+        padding: 0px 16px 0px;
+    }
+
+    .img-non {
+        display: none;
+    }
+
+    .photoa {
+        width: 170px;
+        height: 70px;
+      margin: 0px 0px 12px 14px;
+    }
+
+    .photob {
+        width: 170px;
+        height: 113px;
+        margin: 0px 0px 0px 14px;
+    }
+
+    .photoc {
+        width: 124px;
+        height: 113px;
+        margin-bottom: 12px;
+    }
+
+    .photod {
+        width: 124px;
+        height: 70px;
+    }
+    .t29 {
+        font-size: 14px;
+        margin: 19px 42px 0px;
+      
+    }
+    .t30 { 
+      margin: 25px 42px 19px ;
+     }
+     .bottom-img {
+      margin: 35px 105px 0px;
+     }
+   
+}
